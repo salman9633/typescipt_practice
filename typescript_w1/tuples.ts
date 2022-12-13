@@ -14,7 +14,7 @@ const user2:[string,number]=["salman",1]//tuple
 */ 
 
 
-type User= [number,string,number,boolean]
+type UserD= [number,string,number,boolean]
 
-const newUser:User=[1,"qwe",1,false]
-newUser[1]="1"//we can reassign an element in the array but here to data type matters 
+const newUserD:UserD=[1,"qwe",1,false]
+newUserD[1]="1"//we can reassign an element in the array but here to data type matters 
