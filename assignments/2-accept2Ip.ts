@@ -6,3 +6,5 @@ const sum:number=parseFloat(num1)+parseFloat(num2)
 
 console.log("sum:",sum);
 
+export{}
+
