@@ -48,4 +48,4 @@ const data: string[] | number[] = [1, 2, 3]//in this case the array elemnts can 
 const data2: string[] | number[] = ["1", "2", "3"]
 
 //another method
-const data3:(string|number|boolean)[] =["1",true,2,3]//in this it is possible to arrange array elemts with both  type if you want you can add more type too
+const data3:(string|number|boolean)[] =["1",true,2,3] //in this it is possible to arrange array elemts with both  type if you want you can add more type too

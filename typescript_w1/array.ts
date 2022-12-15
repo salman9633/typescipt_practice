@@ -13,14 +13,14 @@ type User = {
     isActive: boolean
 }
 
-const allUser: User[]=[]
+const allUser: User[] = []
 
-allUser.push({name:"salman",isActive:true})
+allUser.push({ name: "salman", isActive: true })
 
 /******************************************/
 
-const MLModels: number[][]=[
-    [1,2,3],[9,5,3],[6,0]
+const MLModels: number[][] = [
+    [1, 2, 3], [9, 5, 3], [6, 0]
 ]
 
 console.log(MLModels[1][0]);//op=>9
@@ -29,9 +29,22 @@ console.log(powerRank);//op=>[ 1, 2 ]
 console.log(MLModels);//op=>[ [ 1, 2, 3 ], [ 9, 5, 3 ], [ 6, 0 ] ]
 console.log(MLModels[0]);//op=>[ 1, 2, 3 ]
 
+/*************************FILTER************************************************************************************/
+
+const b: number[] = [1, -1, 2, 3,4]
+
+let a = b.filter(function (value: number) {
+    return value >= 0
+}
+)
+
+let c=b.filter(elem=>elem%2==0)
+console.log(c);
+let ar=b.map(elem=>elem%2==0)
+console.log(ar);
 
 
+console.log(a);
 
-
-
+export { }
 
